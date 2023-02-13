@@ -7,5 +7,42 @@
     <title>Bap er bank</title>
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
-  <body></body>
+  <body>
+    <header>
+      <h1 class="text-5xl text-center mt-12 text-orange-700 font-semibold">
+        Wellcome to your<span class="text-violet-700 font-bold">
+          Baap Er Hotel!!!</span
+        >
+      </h1>
+    </header>
+    <main>
+      <section class="bg-green-300 w-7/12 mx-auto mt-12 p-8 rounded-md">
+        <div>
+          <h2 class="font-medium text-4xl mb-4">Please Login</h2>
+          <input
+            class="w-9/12 mx-auto rounded-md p-2 outline-0"
+            type="email"
+            name=""
+            id="email-field"
+            placeholder="enter your email"
+          />
+          <input
+            class="block my-2 w-9/12 rounded-md p-2 outline-0"
+            type="password"
+            name=""
+            placeholder="enter your password"
+            id="password-field"
+          />
+          <button
+            class="bg-amber-500 px-6 py-2 text-xl font-medium rounded-lg hover:bg-violet-400"
+            type="submit"
+            id="login-btn"
+          >
+            LOG IN
+          </button>
+        </div>
+      </section>
+    </main>
+    <script src="js/login.js"></script>
+  </body>
 </html>
